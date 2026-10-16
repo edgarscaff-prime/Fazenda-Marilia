@@ -1,0 +1,93 @@
+Fazenda Marília — Vacinação do Rebanho
+
+1. Nome e tema do projeto
+
+O nome do meu projeto é Fazenda Marília. Escolhi esse tema para fazer uma página sobre a vacinação do gado contra a febre aftosa, mostrando informações sobre a saúde do rebanho, o controle das vacinas e o histórico de vacinação. Inclusive, é o nome da fazenda do meu sogro, a namorada aprovou meu projeto kkk
+
+
+
+
+2. Explicação da interface
+
+Na página, coloquei um cabeçalho com o nome da fazenda, uma barra de navegação, um título com uma descrição sobre a vacinação e três cards com informações relacionadas ao rebanho.
+Também coloquei um selo mostrando que a vacinação está em dia, um botão para consultar a vacinação, um alerta de sucesso e um rodapé com os direitos reservados.
+
+
+
+
+3. Componentes do Bootstrap utilizados
+
+Utilizei o Bootstrap por meio de um CDN, sem precisar criar um arquivo CSS separado. (Inclusive, MUITO melhor viu, gostei mais assim)
+As principais classes e componentes que utilizei foram:
+navbar: para criar a barra de navegação;
+container: para organizar o conteúdo;
+row e col-md-4: para organizar os três cards;
+card: para apresentar as informações;
+badge: para mostrar o status da vacinação;
+btn: para criar o botão;
+alert: para mostrar a mensagem de sucesso;
+footer: para criar o rodapé;
+classes como bg-success, bg-dark e text-white para definir as cores.
+
+
+
+
+
+4. Diferença entre let, const e var
+
+A const utilizei nas variáveis cujos valores não precisavam ser alterados durante o código, como o nome da fazenda e o nome da vacina.
+A let utilizei na variável da quantidade de gados, porque comecei com o valor de 500 e depois alterei para 600.
+A var utilizei apenas para demonstrar uma forma mais antiga de declarar variáveis em JavaScript.
+
+
+
+
+
+5. Tipos de dados utilizados
+
+No meu código, utilizei os seguintes tipos de dados:
+String: para textos, como o nome da vacina "Aftosa".
+Number: para valores numéricos, como a quantidade de animais vacinados.
+Boolean: utilizei o valor true para indicar que a vacinação está completa.
+Null: utilizei para representar a ausência de uma data definida para a próxima vacinação.
+Também utilizei console.log() para mostrar os valores e os resultados no Console.
+Criei com a IA uma imagem pra colocar no lugar do H1, achei que ficou mais bonito.
+
+
+
+
+
+6. Condição com if e else
+
+Utilizei if e else para verificar a quantidade de gados e mostrar uma mensagem no Console.
+Quando a condição é verdadeira, aparece uma mensagem informando que a vacinação foi concluída com sucesso. Caso contrário, aparece uma mensagem informando que a vacinação está incompleta.
+E eu testei dos dois jeitos.
+
+
+
+
+7. Desafio Integrador
+
+Utilizei as variáveis const e let, criei os cálculos pedidos no enunciado.
+Const deixei no número maximo de gados porque não é um número que vai alterar, e let deixei na quantidade de vacinados, porque vai ficar mudando de acordo com a vacinação
+Calculei a quantidade de animais que faltam ser vacinados e a porcentagem que já foi vacinado também.
+Usei if e else pra verificar se a vacinação foi concluida ou ainda faltam algumas cabeças pra poder vacinar.
+Executei o código no terminal e testei os 2 resultados.
+
+
+
+
+
+8. Maior dificuldade e como resolvi
+
+Minha maior dificuldade foi organizar a página com o Bootstrap e deixar os elementos no lugar certo, principalmente os cards, o botão e o rodapé.
+Resolvi essa dificuldade fazendo alterações nas classes do Bootstrap e testando o resultado no navegador até conseguir organizar melhor a página.
+Também pratiquei os exercícios de JavaScript executando o arquivo e conferindo os resultados no terminal.
+
+
+
+
+
+9. Conclusão
+
+Eu gostei de usar o Bootstrap mais do que o css, ainda achei meio complicadinho porque é novo pra mim ainda, então usei um pouco da IA pra me ajudar com o design da página, porque eu tenho toque.. Eu tinha feito tudo certinho já como foi pedido, mas ficou meio feio, então usei só pra deixar mais bonitinho e aprender um pouco mais sobre.. De resto, fiz do meu jeito, testei tudo, ficou tudo perfeito.
